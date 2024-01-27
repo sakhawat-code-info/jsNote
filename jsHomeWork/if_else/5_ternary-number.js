@@ -10,3 +10,20 @@ write a simple if-else.
 also, write it using ternary operator.
 
  */
+
+let sum, num1 = 10, num2 = 20, result = 0;
+
+
+// if else operation 
+
+// if (num1 > num2) {
+//     result = num1 * 2;
+// }else {
+//     result = num1 + num2;
+// }
+
+
+// ternary operation
+(num1 > num2) ? result = num1 * 2 : result = num1 + num2;
+
+console.log(result);

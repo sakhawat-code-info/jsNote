@@ -12,7 +12,7 @@ Create a simple JavaScript program that takes a student's score as input and ret
 
 ***/
 
-let marks = 101;
+let marks = "ok";
 
 if (marks >= 90 && marks <= 100) {
     console.log("you are A+");
@@ -25,6 +25,6 @@ if (marks >= 90 && marks <= 100) {
 }else if (marks > 0 && marks < 59){
     console.log('you are fail');
 }else {
-    console.log(`${marks} is not a valid number. please enter 0 - 100`);
+    console.log(`${marks} is not a valid things. please enter 0 - 100`);
 }
 
